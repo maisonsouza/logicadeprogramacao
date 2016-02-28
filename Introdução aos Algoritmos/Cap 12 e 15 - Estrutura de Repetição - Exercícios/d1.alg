@@ -8,7 +8,6 @@ algoritmo "Desafio 1"
 var
 a,b,c,d,f,g,cont,mmc,mdc,conta,contb,valora,valorb:inteiro
 inicio
-// Seção de Comandos
 mmc<-1
 mdc<-1
 escreval("Digite o valor de a")

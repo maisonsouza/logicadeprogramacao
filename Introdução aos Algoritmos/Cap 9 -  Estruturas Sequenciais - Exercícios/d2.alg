@@ -58,5 +58,5 @@ escreval(notas20, " notas de 20")
 escreval(notas10, " notas de 10")
 escreval(notas5, " notas de 5")
 escreval(notas2, " notas de 2")
-escreval(notas1, "  notas de 1")
+escreval(notas1, " notas de 1")
 fimalgoritmo

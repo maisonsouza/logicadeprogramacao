@@ -20,6 +20,10 @@ retorne ehpar
 fimfuncao
 
 inicio
+escreval("Escrever um algoritmo para determinar se um determinado número inteiro é par")
+escreval("ou ímpar. Utilizar um subalgoritmo de função que retorna um valor lógico para")
+escreval("indicar se o valor recebido é par ou não.")
+escreval("_____________________________________________________________________________")
 escreval ("Digite o número")
 leia(n)
 parouimpar<-VerificaNum(n)

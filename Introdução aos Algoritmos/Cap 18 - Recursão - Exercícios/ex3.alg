@@ -6,7 +6,7 @@ algoritmo "Terceiro"
 // Seção de Declarações 
 var
 V:vetor [1..10] de inteiro
-i,totalpares:inteiro
+i,totalpares,pares:inteiro
 ehpar: logico
 
 procedimento LerVetor()
@@ -23,23 +23,30 @@ para i de 1 ate 10 faca
 fimpara
 fimprocedimento
 
-funcao contaPares(nomev, de inteiro):inteiro
-var
-pares:inteiro
+funcao contaPares(i:inteiro):inteiro
 inicio
-se i<=10 entao
-retorne pares
-  se v[i]%2=0 entao
-  pares <- pares + V[i+1]
-  retorne contaPares
-fimse
-fimse
 
+para i de i ate 11 faca
+  se i > 10 entao
+  retorne pares
+  interrompa
+  fimse
+  se v[i]%2=0 entao
+  pares<-pares+v[i]
+  retorne contaPares(i+1)
+  senao
+      retorne contaPares(i+1)
+  fimse
+fimpara
+retorne pares
+interrompa
 fimfuncao
 
 inicio
 // Seção de Comandos 
 LerVetor()
 ImprimeVetor()
-totalpares<-contaPares()
+totalpares<-contaPares(1)
+escreval("")
+escreval("O total de pares é",totalpares)
 fimalgoritmo

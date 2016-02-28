@@ -1,38 +1,48 @@
-algoritmo "quarto"
-// Função : Faça uma subrotina que receba dois vetores V1(100) e V2(100) em que cada posição contem um dígito
-// e retorne V3(101) com a soma dos números nos vetores.
-// Ex: V1 = 0 0 0 3 2 1
-//     V2 = 0 0 4 7 3 2
-//    -----------------------
-//     V3 = 0 0 5 0 5 3
+algoritmo "segundo"
+// Função : Escreva um algoritmo que lê um número não determinado de valores m, todos inteiros e positivos, um
+// valor de cada vez, e, se m<10 utiliza um subalgoritmo do tipo função que calcula o fatorial de m, e caso
+// contrário, utiliza um subalgoritmo do tipo função para obter o número de divisores de m (quantos
+// divisores m possui). Escrever cada m lido e seu fatorial ou seu número de divisores com uma mensagem
+// adequada". Neste caso, temos um programa principal e dois subalgoritmos.
 // Autor : Maison Galvão
-// Data : 23/02/2016
-// Seção de Declarações 
+// Data : 04/12/2015
+// Seção de Declarações
 var
-v1: vetor [1..10] de inteiro
-v2: vetor [1..10] de inteiro
-v3: vetor [1..11] de inteiro
-i,somados,p1,p2:inteiro
+m,i,fat,divi:inteiro
 
-funcao Soma (n1,n2: inteiro):inteiro
+Funcao CalculaFatorial (m:inteiro):inteiro
+var
+f:inteiro
 inicio
-somados<-v1[n1]+v2[n2]
-retorne somados
+f<-1
+para i de m-1 ate 1 passo-1 faca
+   f<-f*i
+fimpara
+f<-f*m
+retorne f
+fimfuncao
+
+Funcao ContaDivisores (m:inteiro):inteiro
+var
+c:inteiro
+inicio
+para i de 1 ate m faca
+   se m%i=0 entao
+      c<-c+1
+   fimse
+fimpara
+retorne c
 fimfuncao
 
 inicio
-// Seção de Comandos 
-para i de 1 ate 10 faca
-   leia(v1[i])
-fimpara
-escreval("")
-para i de 1 ate 10 faca
-   leia(v2[i])
-fimpara
- escreval("")
-para i de 1 ate 10 faca
-   p1<-v1[i]
-   p2<-v2[i]
-   v3[i]<-Soma(p1,p2)
-fimpara
+// Seção de Comandos
+escreval("Digite o valor de m")
+leia(m)
+se m<10 entao
+   fat<-CalculaFatorial(m)
+   escreval("o fatorial de ",m," = ",fat)
+senao
+   divi <- ContaDivisores(m)
+   escreval("O total de divisores de ",m," = ",divi)
+fimse
 fimalgoritmo

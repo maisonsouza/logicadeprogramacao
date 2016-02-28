@@ -19,7 +19,7 @@ fimpara
 para i de 1 ate 6 faca
    escreval("")
    para j de 1 ate 6 faca
-      escreva(M[i,j])
+      escreva(M[i,j]:3)
    fimpara
 fimpara
 escreval("")
@@ -30,8 +30,8 @@ para i de 1 ate 5 faca
       soma1<-soma1 + (M[i,j])
    fimpara
 fimpara
-
-escreval("A soma 1 =",soma1)
+ESCREVAL("")
+escreval("A soma 1 = ",soma1)
 
 
 para i de 1 ate 5 faca
@@ -41,7 +41,6 @@ para i de 1 ate 5 faca
       fimse
    fimpara
 fimpara
-escreval("")
 escreval("A soma 2 = ",soma2)
 
 para i de 1 ate 2 faca

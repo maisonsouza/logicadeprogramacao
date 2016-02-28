@@ -5,15 +5,18 @@ algoritmo "quarto"
 // Data : 27/11/2015
 // Seção de Declarações 
 var
-N: vetor [1..8] de inteiro
+N: vetor [1..80] de inteiro
 i,menor,posi:inteiro
 inicio
-// Seção de Comandos
-para i de 1 ate 8 faca
+escreval("Escrever um algoritmo que lê um vetor N(80) e o escreve. Encontre, a seguir,")
+escreval("o menor elemento e a sua posição no vetor N e escreva: O menor elemento")
+escreval(" de N é = ... e a sua posição é ... .")
+escreval("____________________________________________________________________________")
+para i de 1 ate 80 faca
   leia(N[i])
 fimpara
 menor<-N[1]
-para i de 2 ate 8 faca
+para i de 2 ate 80 faca
  se N[i]<menor entao
     menor<-n[i]
     posi<-i

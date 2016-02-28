@@ -5,10 +5,9 @@ algoritmo "segundo"
 // Data : 11/02/2016
 // Seção de Declarações 
 var
- r,a: inteiro
- v:real
+r,a:inteiro
+v:real
 inicio
-// Seção de Comandos 
 escreval("---------------------------------------------------------------------")
 escreval("Faça um algoritmo que determine o volume de uma caixa dágua cilíndrica,")
 escreval("sendo que o raio e a altura devem ser fornecidos (lidos pelo teclado")

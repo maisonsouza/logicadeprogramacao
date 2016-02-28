@@ -8,7 +8,6 @@ var
 N: vetor  [1..10]  de inteiro
 i,aux:inteiro
 inicio
-// Seção de Comandos 
 escreval("Escrever um algoritmo que lê um vetor N(20) e o escreve. Troque, a seguir,")
 escreval(" o 1* elemento com o último, o 2* com o penúltimo, etc até o 10* com o 11* ")
 escreval(" e escreva o vetor N assim modificado.")

@@ -38,28 +38,28 @@ escreval("Digite o salário atual")
 leia(salario)
 
 se salario <=400 entao
-por<-0.15
-ns<-salario + salario * por
+por<-15
+ns<-salario + salario * por/100
 fimse
 
 se (salario>=401) e (salario<=700)entao
-por<-0.12
-ns<- salario + salario * por
+por<-12
+ns<- salario + salario * por/100
 fimse
 
 se (salario >=701) e (salario<=1000) entao
-por<-0.10
-ns<- salario + salario * por
+por<-10
+ns<- salario + salario * por/100
 fimse
 
 se (salario >=1001) e (salario<=1800) entao
-por<-0.07
-ns<- salario + salario * por
+por<-7
+ns<- salario + salario * por/100
 fimse
 
 se (salario >=1801) e (salario<=2500) entao
-por<-0.04
-ns<- salario + salario * 0.04)
+por<-4
+ns<- salario + salario * por/100
 fimse
 
 

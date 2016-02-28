@@ -31,7 +31,7 @@ fimpara
 para i de 1 ate 4 faca
      escreval("")
     para j de 1 ate 6 faca
-       escreva(N1[i,j])
+       escreva(N1[i,j]:3)
     fimpara
 fimpara
  ESCREVAL("")

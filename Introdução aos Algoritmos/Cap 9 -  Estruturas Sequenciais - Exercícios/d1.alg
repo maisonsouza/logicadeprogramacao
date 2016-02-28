@@ -31,5 +31,6 @@ conta <- ts * 0.80 + 10 + 1.50 * cob
 escreval("o valor da conta é de R$", conta, " mais os 10% do garçom total = ",conta + conta*0.10)
 escreval("Digite a quantidade de pessoas")
 leia(p)
-escreval("Cada pessoa deve pagar R$", conta/p)
+conta<-conta/p
+escreval("Cada pessoa deve pagar R$", conta:3:2)
 fimalgoritmo
