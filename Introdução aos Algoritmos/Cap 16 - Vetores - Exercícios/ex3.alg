@@ -7,7 +7,8 @@ var
 A:vetor [1..100] de inteiro
 i:inteiro
 inicio
-// Seção de Comandos 
+escreval("Faça um algoritmo que leia 100 valores e os escreva na ordem contrária")
+escreval(" à que foram digitados.")
 para i de 1 ate 100 faca
 leia (A[i])
 fimpara

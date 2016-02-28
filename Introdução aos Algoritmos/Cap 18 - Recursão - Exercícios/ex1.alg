@@ -18,7 +18,9 @@ fimse
 fimfuncao
 
 inicio
-// Seção de Comandos
+escreval("Escrever um algoritmo, utilizando um subalgoritmo recursivo, para calcular")
+escreval("a soma dos 'n' primeiros inteiros positivos, sendo 'n' um valor fornecido")
+escreval(" pelo usuário.")
 soma<-1
 escreval("Digite o valor de n")
 leia(n)

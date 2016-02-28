@@ -7,7 +7,7 @@ var
 M: vetor [1..10,1..10] de inteiro
 a,b,v,i,j,aux: inteiro
 inicio
-// Seção de Comandos
+escreval("Escreva um algoritmo que ordene os elementos de cada linha de uma matriz M[10,10].")
 para i de 1 ate 10 faca
    para j de 1 ate 10 faca
       leia (M[i,j])

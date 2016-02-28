@@ -27,5 +27,4 @@ escreval("Digite o tempo em horas")
 leia(t)
 vm <- d/t
 escreval("Nome do piloto = ", nome, " velocidade média = ", vm, "km/h")
-
 fimalgoritmo

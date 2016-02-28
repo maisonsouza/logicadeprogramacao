@@ -39,6 +39,17 @@ para i de 1 ate 13 faca
    fimse
 fimpara
 
+
+escreval("APOSTA")
+para i de 1 ate 13 faca
+  escreva(" ",R[i])
+fimpara
+ESCREVAL("")
+escreval("GABARITO")
+para i de 1 ate 13 faca
+  escreva(" ",G[i])
+fimpara
+ESCREVAL("")
 se acertos=13 entao
   escreval("GANHADOR PARABÉNS")
 fimse

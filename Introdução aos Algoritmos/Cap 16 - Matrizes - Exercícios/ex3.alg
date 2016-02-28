@@ -31,7 +31,7 @@ fimpara
 para i de 1 ate 5 faca
    escreval("")
    para j de 1 ate 5 faca
-      escreva(M[i,j])
+      escreva(M[i,j]:3)
    fimpara
 fimpara
 

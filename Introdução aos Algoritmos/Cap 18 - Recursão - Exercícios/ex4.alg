@@ -17,7 +17,9 @@ fimse
 fimfuncao
 
 inicio
-// Seção de Comandos 
+escreval("Escrever um algoritmo, utilizando um subalgoritmo recursivo, para calcular")
+escreval("o N-esimo termo da série de Fibonacci.")
+escreval("___________________________________________________________________________")
 escreval("Digite o termo")
 leia(t)
 termo<-calculaFibo(t)

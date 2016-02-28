@@ -13,7 +13,6 @@ var
 i,a,b,c,maior,meio,menor:inteiro
 ordenado:logico
 inicio
-// Seção de Comandos
 escreval("Faça um programa que lê 4 valores I, A, B e C onde I é um número inteiro")
 escreval("e positivo e A, B, e C são quaisquer valores reais. O programa deve escrever")
 escreval(" os valores lidos e:· se I = 1, escrever os três valores A, B e C em ordem crescente;")
